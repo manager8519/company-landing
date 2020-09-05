@@ -1,0 +1,52 @@
+.test {
+    width: 500px;
+    height: 400px;
+    background-color: blue;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+.test1 {
+    width:100px;
+    height: 100px;
+    background-color:  red;
+
+}
+
+.test2 {
+    width:100px;
+    height: 100px;
+    background-color:  black;
+
+}
+
+.test3 {
+    width:100px;
+    height: 100px;
+    background-color:  green;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.block{
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    margin: 0, auto;
+}
+.general-layot{
+display: flex;
+}
+.title{
+display: flex;
+}
+.buttom{
+    display: flex;
+}
